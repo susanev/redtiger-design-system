@@ -297,3 +297,24 @@ code[class*="language-"], pre[class*="language-"] {
     display: block;
   }
 }
+
+/*------------------------------------*\
+    #CUSTOM STYLES FOR DESIGN GUIDE
+\*------------------------------------*/
+
+.color-block {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  line-height:150px;
+  margin: 0 25px 25px 0;
+}
+
+.light-text {
+  color: #fff;
+}
+
+.dark-text {
+  color: #000;
+}
