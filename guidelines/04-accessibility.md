@@ -28,3 +28,14 @@ When building RedTiger componenets developers test using Keros.
 [hi there](http://microsoft.com.com)
 
 ![Accessibility logo of a person in a wheelchair]({{ app.url | prepend: site.baseurl }}/assets/images/guidelines/accessibility/accessibility-icon.svg "Accessibility logo")
+
+
+#### An unordered list
+* okay
+* goodbye
+* uhhhh
+
+#### A ordered list
+1. one
+1. two
+1. three
