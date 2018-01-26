@@ -26,3 +26,5 @@ RedTiger forms always assoicate labels with their respective form controls.
 When building RedTiger componenets developers test using Keros.
 
 [hi there](http://microsoft.com.com)
+
+![Accessibility logo of a person in a wheelchair](/assets/images/guidelines/accessibility/accessibility-icon.svg "Accessibility logo")
