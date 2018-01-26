@@ -11,7 +11,7 @@ description: The RedTiger design system provides accessible markup, however it i
 ## Accessibility in RedTiger
 There are no limits to what our partners can achieve when technology reflects the diversity of everyone using it. For this reason, RedTiger is designed and developed for inclusion.  This democratizes our platform and enables all users to deliver best in class digital marketing and merchandizing content. 
 
-Accessibility ensures that people with disabilities can perceive, understand, navigate, interact with, and contribute to the applications you create. This means that pages are <a href="https://www.w3.org/TR/WCAG20/" target="_blank">Perceivable, Operable, Understandable and Robust</a>. This includes designing for keyboard interaction, and screen readers. 
+Accessibility ensures that people with disabilities can perceive, understand, navigate, interact with, and contribute to the applications you create. This means that pages are [Perceivable, Operable, Understandable and Robust](https://www.w3.org/TR/WCAG20/). This includes designing for keyboard interaction, and screen readers. 
 
 ## Keyboard navigation
 All RedTiger componenents are fully-navigable with the keyboard. We never center our designs on pointing devices. We also use landmarks to make it possible to move quickly between different sections on the page.
