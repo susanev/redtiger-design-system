@@ -3,11 +3,18 @@ layout: page
 title: Design Principles
 group: guidelines
 permalink: /guidelines/principles.html
-description: The design system's guiding values
+description: RedTiger's guiding values
 
 
 ---
 
-Here is where you take the time to explain the principles that are encapsulated in the entire design system. These principles will manifest themselves in different ways, from high-level guidelines to low-level components.
+## Efficient and Focused
+We help you get your work done quickly by using good hierarchy to guide you to the relevant information.
 
-For inspiration, be sure to check out [Design Principles FTW](http://www.designprinciplesftw.com/) and [what goes into creating good design principles](https://articles.uie.com/creating-design-principles/).
+## Inclusive
+Our designs are inclusive. All interactions can be accomplished with keyboards or pointing devices.
+
+## User-centered
+All of our designs have been informed by our users through the use of interviews, surveys, and usability studies.
+
+
