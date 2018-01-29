@@ -318,3 +318,76 @@ code[class*="language-"], pre[class*="language-"] {
 .dark-text {
   color: #000;
 }
+
+.type, .c-text-passage h2.type {
+  font-weight: 400;
+  margin: 1rem 0 1rem;
+}
+
+h1.type {
+  font-size: 2rem;
+}
+
+h2.type {
+  font-size: 1.75rem;
+}
+
+h3.type {
+  font-size: 1.5rem;
+}
+
+h4.type {
+  font-size: 1.125rem;
+}
+
+type.p, type.label, type.input {
+  font-size: .875rem
+}
+
+p.type.small {
+  font-size: 0.75rem
+}
+
+button.type, input.type {
+  border-radius: 4px;
+  margin: 0;
+}
+
+button.type {
+  font-size: 1rem;
+  height: 34px;
+  background-color: #0078d7;
+  color: #fff;
+  border: 1px solid #0078d7;
+  padding: .375rem .75rem;
+}
+
+input.type {
+  max-width: 300px;
+  margin-top: 5px;
+}
+
+button.type.focus,
+button.type:focus,
+button.type.focus,
+button.type:focus {
+  box-shadow: none;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+button.type:hover, button.type:focus {
+  background-color: #005da6;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+button.type:active {
+  background-color: #005293;
+}
+
+
+
+
+
+
+
+
