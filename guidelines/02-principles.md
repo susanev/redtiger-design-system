@@ -8,13 +8,14 @@ description: RedTiger's guiding values
 
 ---
 
+## Consistent
+RedTiger tools are consistent. We use the same design language across all tools. 
+
 ## Efficient and Focused
-We help you get your work done quickly by using good hierarchy to guide you to the relevant information.
+We help you get your work done quickly by using good hierarchy to guide you to the relevant information. We optimize for your productivity.
 
 ## Inclusive
-Our designs are inclusive. All interactions can be accomplished with keyboards or pointing devices.
+People of all abilities can be productive with our tools.
 
 ## User-centered
-All of our designs have been informed by our users through the use of interviews, surveys, and usability studies.
-
-
+All of our tools have been informed by interviews, surveys, and usability studies.
