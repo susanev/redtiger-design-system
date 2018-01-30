@@ -92,11 +92,7 @@
 
 			<ul class="c-primary-nav__sublist js-nav-dropdown {% assign post_index = '0' %}{% for my_page in site.pages %}{% if my_page.group == 'components' %}{% capture post_index %}{{ post_index | plus: '1' }}{% endcapture %}{% endif %}{% endfor %}{% if page.url contains '/components' %} is-active{% endif %}">
 
-				{% include primary-nav-item.html label='Blocks and cards' subgroup='blocks-and-cards' %}
-
-        {% include primary-nav-item.html label='Buttons' subgroup='buttons' %}
-
-				{% include primary-nav-item.html label='Charts and graphs' subgroup='charts-and-graphs' %}
+        		{% include primary-nav-item.html label='Buttons' subgroup='buttons' %}
 
                 {% include primary-nav-item.html label='Form controls' subgroup='form-controls' %}
 
@@ -104,13 +100,6 @@
 
                 {% include primary-nav-item.html label='Icons' subgroup='icons' %}
 
-                {% include primary-nav-item.html label='Interactive panels' subgroup='interactive' %}
-
-                {% include primary-nav-item.html label='Lists and collections' subgroup='lists-and-collections' %}
-
-                {% include primary-nav-item.html label='Media' subgroup='media' %}
-
-                {% include primary-nav-item.html label='Messaging' subgroup='messaging' %}
 
                 {% include primary-nav-item.html label='Navigation' subgroup='navigation' %}
 
@@ -133,7 +122,7 @@
 
 		</li><!-- end c-nav__list__item -->
 
-        <li class="c-primary-nav__item {% if page.url contains '/utilities' %}is-active{% endif %}">
+        <!-- <li class="c-primary-nav__item {% if page.url contains '/utilities' %}is-active{% endif %}">
 
 			<a href="{{ "/utilities/index.html" | prepend: site.baseurl }}" class="c-primary-nav__link c-primary-nav__link--has-children js-nav-dropdown-trigger {% if page.url contains '/utilities' %} is-active  is-current{% endif %}">
 
@@ -166,9 +155,9 @@
 			{% endfor %}
 			</ul>
 
-		</li><!-- end c-nav__list__item -->
+		</li> --><!-- end c-nav__list__item -->
 
-		<li class="c-primary-nav__item">
+		<!-- <li class="c-primary-nav__item">
 
 			{% for my_page in site.pages %}
 				{% if my_page.url == "/page-templates.html" %}
@@ -178,7 +167,7 @@
 				{% endif %}
 			{% endfor %}
 
-		</li><!-- end c-nav__list__item -->
+		</li> --><!-- end c-nav__list__item -->
 
 		<li class="c-primary-nav__item">
 

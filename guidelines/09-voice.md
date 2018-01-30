@@ -1,9 +1,9 @@
 ---
 layout: page
 type: detail
-title: Writing
+title: Voice and tone
 group: guidelines
-permalink: /guidelines/writing.html
+permalink: /guidelines/voice.html
 description: Guidelines for writing best practices
 
 ---
