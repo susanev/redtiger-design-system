@@ -2,10 +2,10 @@
 layout: component-detail
 group: components
 subgroup: form-controls
-permalink: /components/form-controls/text-field.html
+permalink: /components/form-controls/radio-buttons.html
 
-title: Text field
-description: Text field description
+title: Radio buttons
+description: Radio buttons description
 
 variations:
 - title: Text field
@@ -47,34 +47,15 @@ fine-print:
   owner: Jane Doe
 ---
 
-### Labels
-#### Overview
-* All form labels should have a for attribute that matches the id of the form element they are paired with
-* If needing to overcome the one-to-one limitation for label and form element, than aria-labelledby should be used
-* If additional (non-label) information is needed, then an aria-describedby attribute should be used; multiple elements can reference the same aria-describedby; aria-describedby should never replace the label, it should be used in addition to a label
-
-#### Basic
+### Radio buttons
 ```html
-<label for="page-name">Page name</label>
-<input type="text" name="page-name" id="page-name"> 
-```
-
-#### Required
-```html
-<label for="page-name">Page name <span aria-hidden="true">*</span></label>
-<input type="text" name="page-name" id="page-name" required> 
-```
-
-#### Optional
-```html
-<label for="page-name">Page name (optional)</label>
-<input type="text" name="page-name" id="page-name"> 
-```
-
-#### With aria-describedby
-```html
-<label for="page-name">Page name</label>
-<input type="text" name="page-name" id="page-name" aria-describedby="page-name-validation"> 
-<br>
-<span id="page-name-validation">Page name may only include letters and numbers.</span>
+<fieldset>
+  <legend>Redirect type</legend>
+  <input id="permanent" type="radio" name="redirect" value="permanent">
+  <label for="permanent">Permanent redirect (301)</label><br>
+  <input id="temporary" type="radio" name="redirect" value="temporary">
+  <label for="temporary">Temporary redirect (302)</label><br>
+  <input id="no-redirect" type="radio" name="redirect" value="no-redirect">
+  <label for="no-redirect">No redirect (404)</label>
+</fieldset>
 ```

@@ -2,10 +2,10 @@
 layout: component-detail
 group: components
 subgroup: form-controls
-permalink: /components/form-controls/text-field.html
+permalink: /components/form-controls/check-boxes.html
 
-title: Text field
-description: Text field description
+title: Check boxes
+description: Check boxes description
 
 variations:
 - title: Text field
@@ -47,34 +47,13 @@ fine-print:
   owner: Jane Doe
 ---
 
-### Labels
-#### Overview
-* All form labels should have a for attribute that matches the id of the form element they are paired with
-* If needing to overcome the one-to-one limitation for label and form element, than aria-labelledby should be used
-* If additional (non-label) information is needed, then an aria-describedby attribute should be used; multiple elements can reference the same aria-describedby; aria-describedby should never replace the label, it should be used in addition to a label
-
-#### Basic
+### Checkboxes
 ```html
-<label for="page-name">Page name</label>
-<input type="text" name="page-name" id="page-name"> 
-```
-
-#### Required
-```html
-<label for="page-name">Page name <span aria-hidden="true">*</span></label>
-<input type="text" name="page-name" id="page-name" required> 
-```
-
-#### Optional
-```html
-<label for="page-name">Page name (optional)</label>
-<input type="text" name="page-name" id="page-name"> 
-```
-
-#### With aria-describedby
-```html
-<label for="page-name">Page name</label>
-<input type="text" name="page-name" id="page-name" aria-describedby="page-name-validation"> 
-<br>
-<span id="page-name-validation">Page name may only include letters and numbers.</span>
+<fieldset>
+  <legend>Video options</legend>
+  <input id="publish" type="checkbox" name="asset-options" value="publish">
+  <label for="publish">Publish after upload</label><br>
+  <input id="generate-captions" type="checkbox" name="generate-captions" value="captions">
+  <label for="generate-captions">Automatically generate captions</label><br>
+</fieldset>
 ```
